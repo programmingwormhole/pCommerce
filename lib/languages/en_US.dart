@@ -4,7 +4,7 @@ Map<String, String> en_US = {
   'skip' : 'Skip',
   'on_title_1' : 'Seamless Shopping Experience',
   'on_des_1' : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
-  'on_title_2' : "Whitelist to Dream Product, in Just a Few Clicks",
+  'on_title_2' : "Whitelist Product, in Just a Few Clicks",
   'on_des_2' : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
   "on_title_3" : "Swift and Reliable Delivery",
   'on_des_3' : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",

@@ -33,17 +33,17 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               },
               children: [
                 OnBoardSection(
-                  image: ImageManager.mobile.path,
+                  image: ImageManager.on1.path,
                   title: 'on_title_1'.tr,
                   subTitle: 'on_des_1'.tr,
                 ),
                 OnBoardSection(
-                  image: ImageManager.mobile.path,
+                  image: ImageManager.on2.path,
                   title: 'on_title_2'.tr,
                   subTitle: 'on_des_2'.tr,
                 ),
                 OnBoardSection(
-                  image: ImageManager.mobile.path,
+                  image: ImageManager.on3.path,
                   title: 'on_title_3'.tr,
                   subTitle: 'on_des_3'.tr,
                 ),

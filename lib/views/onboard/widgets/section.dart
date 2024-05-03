@@ -19,15 +19,10 @@ class OnBoardSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Container(
-          height: 400,
+        SizedBox(
+          height: size.height * .5,
           width: size.width,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(image),
-              fit: BoxFit.cover,
-            ),
-          ),
+          child: Image.asset(image),
         ),
         Padding(
           padding: const EdgeInsets.symmetric(
@@ -41,10 +36,9 @@ class OnBoardSection extends StatelessWidget {
                 title,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                  color: AppColors.primary
-                ),
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                    color: AppColors.primary),
               ),
               const SizedBox(
                 height: 10,
@@ -52,13 +46,13 @@ class OnBoardSection extends StatelessWidget {
               subTitle == null
                   ? const SizedBox()
                   : Text(
-                subTitle!,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Theme.of(context).canvasColor.withOpacity(.5),
-                  fontSize: 14,
-                ),
-              ),
+                      subTitle!,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Theme.of(context).canvasColor.withOpacity(.5),
+                        fontSize: 14,
+                      ),
+                    ),
             ],
           ),
         ),

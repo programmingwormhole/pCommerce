@@ -21,11 +21,15 @@ class $AssetsAnimationsGen {
   /// File path: assets/animations/loading.json
   String get loading => 'assets/animations/loading.json';
 
+  /// File path: assets/animations/onboarding.json
+  String get onboarding => 'assets/animations/onboarding.json';
+
   /// File path: assets/animations/splash_loading.json
   String get splashLoading => 'assets/animations/splash_loading.json';
 
   /// List of all assets
-  List<String> get values => [blocked, complete, loading, splashLoading];
+  List<String> get values =>
+      [blocked, complete, loading, onboarding, splashLoading];
 }
 
 class $AssetsImagesGen {
